@@ -14,7 +14,7 @@ public class IsAlive_Example extends Thread {
     public void run(){
         System.out.println("geeks");
         try{
-            Thread.sleep(300);
+            Thread.sleep(500);
         }
         catch(InterruptedException e){
             System.out.println(e);
@@ -23,10 +23,12 @@ public class IsAlive_Example extends Thread {
     public static void main(String args[]){
         IsAlive_Example c1=new IsAlive_Example();
         IsAlive_Example c2=new IsAlive_Example();
+        IsAlive_Example c3=new IsAlive_Example();
         c1.start();
         c2.start();
         System.out.println(c1.isAlive());
         System.out.println(c2.isAlive());
+        System.out.println(c3.isAlive());
     }
     
 }
