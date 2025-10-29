@@ -29,6 +29,6 @@ public class IsAlive_Example extends Thread {
         System.out.println(c1.isAlive());
         System.out.println(c2.isAlive());
         System.out.println(c3.isAlive());
-    }
-    
+    }    
 }
+
