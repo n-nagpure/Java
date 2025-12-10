@@ -1,14 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package javaapplication12;
-
-/**
- *
- * @author User
- */ 
+//Write a program in Java that creates an abstract class called Shape. Create subclasses that calculate and displays area of rectangle and triangle.
 abstract class AShape{
     int l, b, h, ba;
     abstract int area();
@@ -39,3 +29,4 @@ public class Shape {
         System.out.println("Area of Traingle="+a2.area());
     }
 }
+
