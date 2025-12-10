@@ -1,14 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package javaapplication12;
+//Write a program in Java that has overloaded methods. The first methods should have no arguments.
+//The second method should accept one string argument and the third method should accept one string
+//and one integer argument. The first method should display “Delhi is an Important City” twice. The
+//second method should display “Bombay is a beautiful city” thrice and third method should display
+//“Chennai is a peaceful city” four times.
 
-/**
- *
- * @author User
- */
 public class Overload {
     String s1,s2;
     int i, i1;
@@ -42,3 +37,4 @@ class GFG{
         obj1.show("Chennai is a Peaceful city.", 4);
     }
 }
+
