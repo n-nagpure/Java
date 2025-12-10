@@ -1,15 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package javaapplication12;
+//Write a program in Java to accept values for multithread.
 
-/**
- *
- * @author User
- */
-//Practicle number 5
 class A extends Thread{
     public void run(){
         for(int i=1; i<=5;i++){
@@ -41,3 +31,4 @@ public class Thread_demo {
         new C().start();
     }
 }
+
