@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package javaapplication12;
+//Write a program in Java to create a class for employee record with two constructor, first default constructor to initialize all variables, second constructor to accept the employee details and a method to display employee details.
 
-/**
- *
- * @author User
- */
 class Employee {
     int e_no;
     double e_sal;
@@ -37,3 +28,4 @@ class Employee {
             e2.show();
         }
     }
+
