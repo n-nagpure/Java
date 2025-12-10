@@ -1,6 +1,5 @@
-package javaapplication12;
-//Java program to find Leap Year
-//Class for leap-year dealing
+//Write a program in Java that has Boolean function returning a string to display whether it is a leap year or not
+
 public class Practical2 {
     //Method to check leap year
     public static void isLeapYear(int year){
@@ -43,3 +42,4 @@ public class Practical2 {
         isLeapYear(2002);
     }
 }
+
